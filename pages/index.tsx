@@ -1,12 +1,6 @@
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
 
-
-import dynamic from "next/dynamic";
-const DynamicChart = dynamic(() => import('../components/Chart'), {
-  ssr: false,
-})
-
 export default function Home({ }) {
 
   return (
@@ -18,7 +12,6 @@ export default function Home({ }) {
       </Head>
 
       <main className={styles.main}>
-        <DynamicChart />
 
       </main>
     </div>

@@ -9,6 +9,8 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "bybit-api": "^2.3.2",
+    "dayjs": "^1.11.5",
     "lightweight-charts": "^3.8.0",
     "next": "12.2.5",
     "react": "18.2.0",
